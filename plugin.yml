@@ -1,0 +1,14 @@
+name: PVPMoney
+main: ifteam\PVPMoney\PVPMoney
+version: 0.1-Alpha
+author: hm
+api:
+- 1.0.0
+- 1.4.1
+- 1.12.0
+- 1.13.0
+- 2.0.0
+
+permissions:
+ PVPMoney.commands:
+  default: OP
