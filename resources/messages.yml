@@ -10,6 +10,7 @@ eng-default-prefix: "[ 서버 ]"
 eng-commands-pvpmoney: "pvpmoney"
 eng-pvpmoney-is-it changed: "PVP PRICE has been set!"
 eng-pvpmoney-paid: "%price% received dollar!"
+eng-help-pvpmoney: "/pvpmoney"
 
 #(KO) KOREAN
 kor: true
