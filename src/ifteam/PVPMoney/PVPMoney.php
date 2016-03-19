@@ -34,7 +34,7 @@ class PVPMoney extends PluginBase implements Listener {
 		if ($this->getServer ()->getPluginManager ()->getPlugin ( "EconomyAPI" ) != null) {
 			$this->economyAPI = \onebone\economyapi\EconomyAPI::getInstance ();
 		} else {
-			$this->getLogger ()->error ( $this->get ( "there-are-no-economyapi" ) );
+			$this->getLogger ()->error ( $this->get ( "there-is-no-economyapi" ) );
 			$this->getServer ()->getPluginManager ()->disablePlugin ( $this );
 		}
 		
